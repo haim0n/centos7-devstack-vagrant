@@ -46,7 +46,7 @@ Vagrant.configure('2') do |config|
   # specific provider sections                                                #
   #############################################################################
   config.vm.provider "libvirt" do |v, override|
-  override.vm.box = 'webhippie/centos-7'
+  override.vm.box = 'centos/7'
     v.memory = VM_MEMORY
     v.cpus = VM_CPUS
   end
