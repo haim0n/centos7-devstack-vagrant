@@ -1,6 +1,6 @@
 require 'vagrant-openstack-provider'
 
-VM_MEMORY=6000
+VM_MEMORY=4096
 VM_CPUS=4
 
 Vagrant.configure('2') do |config|
